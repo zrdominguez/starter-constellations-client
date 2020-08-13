@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header/Header";
-import Navigation from "./Navigation";
-import ConstellationsList from "./ConstellationsList/ConstellationsList";
+import Header from "./common/Header";
+import Navigation from "./common/Navigation";
+import ConstellationsList from "./home/ConstellationsList";
 
 function App() {
   const [constellations, setConstellations] = useState({
