@@ -1,6 +1,7 @@
 import React from "react";
 
-export default ({ constellation }) => (
+function Constellation ({ constellation }) {
+return (
   <div className="card col-12 col-md-4 rounded-0">
     <div className="card-body">
       <h5 className="card-title">
@@ -18,3 +19,5 @@ export default ({ constellation }) => (
     </div>
   </div>
 );
+}
+export default Constellation;

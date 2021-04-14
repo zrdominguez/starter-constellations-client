@@ -1,6 +1,7 @@
 import React from "react";
 
-export default () => (
+function NoConstellationsMessage () {
+return (
   <div className="container my-5">
     <div className="row">
       <div className="col">
@@ -9,3 +10,6 @@ export default () => (
     </div>
   </div>
 );
+}
+
+export default NoConstellationsMessage;

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ constellations, setConstellations }) => {
+function Search ({ constellations, setConstellations }) {
   const filterConstellations = (event) => {
     const searchString = event.target.value;
     const visible = constellations.all.filter(({ name }) =>
@@ -31,3 +31,5 @@ export default ({ constellations, setConstellations }) => {
     </form>
   );
 };
+
+export default Search;

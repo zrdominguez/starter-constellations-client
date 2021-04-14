@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "../home/Search";
 
-export default ({ constellations, setConstellations }) => {
+function Header ({ constellations, setConstellations }) {
   return (
     <div className="jumbotron jumbotron-fluid bg-info text-white rounded-0 mb-0">
       <div className="container">
@@ -16,3 +16,5 @@ export default ({ constellations, setConstellations }) => {
     </div>
   );
 };
+
+export default Header;

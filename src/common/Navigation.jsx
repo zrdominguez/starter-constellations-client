@@ -1,6 +1,7 @@
 import React from "react";
 
-export default () => (
+function Navigation () {
+return (
   <ul className="nav justify-content-center bg-light py-2">
     <li className="nav-item">
       <button className="btn btn-link nav-link active">Home</button>
@@ -10,3 +11,6 @@ export default () => (
     </li>
   </ul>
 );
+}
+
+export default Navigation;

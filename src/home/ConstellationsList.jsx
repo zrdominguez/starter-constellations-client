@@ -2,7 +2,7 @@ import React from "react";
 import Constellation from "./Constellation";
 import NoConstellationsMessage from "./NoConstellationsMessage";
 
-export default ({ constellations }) => {
+function ConstellationsList ({ constellations }) {
   if (!constellations.length) return <NoConstellationsMessage />;
 
   const cards = constellations.map((constellation) => (
@@ -14,3 +14,5 @@ export default ({ constellations }) => {
     </div>
   );
 };
+
+export default ConstellationsList;
